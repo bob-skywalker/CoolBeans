@@ -16,6 +16,8 @@
 		5C867F622A7C607D0075584D /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C867F612A7C607D0075584D /* MenuSection.swift */; };
 		5C867F642A7C60FB0075584D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C867F632A7C60FB0075584D /* Menu.swift */; };
 		5C867F662A7C64840075584D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C867F652A7C64840075584D /* MenuView.swift */; };
+		5C867F682A7CC1E10075584D /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C867F672A7CC1E10075584D /* CustomizeView.swift */; };
+		5C867F6C2A7CC9BF0075584D /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C867F6B2A7CC9BF0075584D /* ConfigurationOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		5C867F612A7C607D0075584D /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
 		5C867F632A7C60FB0075584D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		5C867F652A7C64840075584D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		5C867F672A7CC1E10075584D /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
+		5C867F6B2A7CC9BF0075584D /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +68,11 @@
 				5C867F4F2A7C5E4C0075584D /* CoolBeansApp.swift */,
 				5C867F512A7C5E4C0075584D /* ContentView.swift */,
 				5C867F652A7C64840075584D /* MenuView.swift */,
+				5C867F672A7CC1E10075584D /* CustomizeView.swift */,
 				5C867F532A7C5E4E0075584D /* Assets.xcassets */,
 				5C867F5F2A7C5F3C0075584D /* Drink.swift */,
 				5C867F612A7C607D0075584D /* MenuSection.swift */,
+				5C867F6B2A7CC9BF0075584D /* ConfigurationOption.swift */,
 				5C867F632A7C60FB0075584D /* Menu.swift */,
 				5C867F5D2A7C5EAE0075584D /* menu.json */,
 				5C867F552A7C5E4E0075584D /* Preview Content */,
@@ -158,6 +164,8 @@
 				5C867F602A7C5F3C0075584D /* Drink.swift in Sources */,
 				5C867F622A7C607D0075584D /* MenuSection.swift in Sources */,
 				5C867F502A7C5E4C0075584D /* CoolBeansApp.swift in Sources */,
+				5C867F6C2A7CC9BF0075584D /* ConfigurationOption.swift in Sources */,
+				5C867F682A7CC1E10075584D /* CustomizeView.swift in Sources */,
 				5C867F642A7C60FB0075584D /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
