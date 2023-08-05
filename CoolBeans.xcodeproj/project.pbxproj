@@ -19,6 +19,8 @@
 		5C867F662A7C64840075584D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C867F652A7C64840075584D /* MenuView.swift */; };
 		5C867F682A7CC1E10075584D /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C867F672A7CC1E10075584D /* CustomizeView.swift */; };
 		5C867F6C2A7CC9BF0075584D /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C867F6B2A7CC9BF0075584D /* ConfigurationOption.swift */; };
+		5C867F6E2A7DC7DE0075584D /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C867F6D2A7DC7DE0075584D /* FileManager-DocumentsDirectory.swift */; };
+		5C867F702A7DC8310075584D /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C867F6F2A7DC8310075584D /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		5C867F652A7C64840075584D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		5C867F672A7CC1E10075584D /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
 		5C867F6B2A7CC9BF0075584D /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
+		5C867F6D2A7DC7DE0075584D /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		5C867F6F2A7DC8310075584D /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				5C1DF91D2A7D7FC700C4273E /* Serving.swift */,
+				5C867F6D2A7DC7DE0075584D /* FileManager-DocumentsDirectory.swift */,
+				5C867F6F2A7DC8310075584D /* History.swift */,
 				5C867F4F2A7C5E4C0075584D /* CoolBeansApp.swift */,
 				5C867F512A7C5E4C0075584D /* ContentView.swift */,
 				5C867F652A7C64840075584D /* MenuView.swift */,
@@ -165,9 +171,11 @@
 				5C867F522A7C5E4C0075584D /* ContentView.swift in Sources */,
 				5C867F662A7C64840075584D /* MenuView.swift in Sources */,
 				5C867F602A7C5F3C0075584D /* Drink.swift in Sources */,
+				5C867F702A7DC8310075584D /* History.swift in Sources */,
 				5C867F622A7C607D0075584D /* MenuSection.swift in Sources */,
 				5C867F502A7C5E4C0075584D /* CoolBeansApp.swift in Sources */,
 				5C867F6C2A7CC9BF0075584D /* ConfigurationOption.swift in Sources */,
+				5C867F6E2A7DC7DE0075584D /* FileManager-DocumentsDirectory.swift in Sources */,
 				5C867F682A7CC1E10075584D /* CustomizeView.swift in Sources */,
 				5C867F642A7C60FB0075584D /* Menu.swift in Sources */,
 				5C1DF91E2A7D7FC700C4273E /* Serving.swift in Sources */,
