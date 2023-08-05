@@ -9,6 +9,8 @@ import Foundation
 
 class History: ObservableObject {
     @Published var servings: [Serving]
+    
+    // this returns a URL
     let savePath = FileManager.documentsDirectory.appendingPathComponent("SavedDrinks")
     
     init(){
