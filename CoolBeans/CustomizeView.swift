@@ -105,10 +105,13 @@ struct CustomizeView: View {
             }
         }
         .onAppear {
+            guard isFirstAppearance else { return }
+            
             if drink.servedWithMilk && isFirstAppearance {
                 milk = menu.milkOptions[1]
-                isFirstAppearance = false 
             }
+            
+            isFirstAppearance = false 
         }
     }
 }
